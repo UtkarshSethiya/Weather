@@ -1,0 +1,103 @@
+.searchbox{
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  height: 40px;
+ 
+
+}
+.inputsearch{
+  text-align: center;
+  font-size: large;
+ width: 60%;
+border-radius: 30px;
+ border: none;
+ background-color: rgba(231, 231, 231, 0.781);
+ 
+}
+.inputsearch:focus{
+  background-color: rgba(231, 231, 231, 0.521);
+ outline: none;
+}
+
+
+
+.App{
+  /*background-image:url("https://www.teahub.io/photos/full/264-2648821_snow-cartoon-background-hd.jpg"); */
+ 
+ 
+
+}
+.Sunny{
+  background-image:url("/src/sunny.jpg") ;
+  transition: ease-in;
+    transition-duration: .4s;
+  height: 100vh;
+  width: 1500px;
+  background-repeat: no-repeat;
+}
+
+.blank{
+ /*
+  background-image: url("https://www.reallusion.com/ContentStore/image/cta/ACR300DIENU050120180320001/T_ACR300DIENU05012018032000120180321085851357.jpg");
+ */
+  transition: ease-in;
+  transition-duration: .4s;
+  height: 100vh;
+ 
+  
+}
+h1{padding-top: 10px;
+  color: rgba(7, 7, 7, 0.589);
+  text-align: center;
+}
+
+@media (max-width:800px ) and (max-height:900px){
+  .App{
+    height: 800px;
+    width: 500px;
+    transition: ease-in;
+    transition-duration: .4s;
+  }
+  .Sunny{
+    height: 1000px;
+    width: 500px;
+    transition: ease-in;
+    transition-duration: .4s;
+    background-repeat: no-repeat;
+}
+.blank{
+background-image: url("https://www.reallusion.com/ContentStore/image/cta/ACR300DIENU050120180320001/T_ACR300DIENU05012018032000120180321085851357.jpg");
+height: 800px;
+  width: 500px;
+transition: ease-in;
+transition-duration: .4s;
+}
+}
+
+.infobox{
+  margin-top: 80px;
+  
+  display: flexbox;
+  justify-content: center;
+  text-align: center;
+}
+.name{
+  color: rgba(0, 0, 0, 0.616);
+  font-weight: 600;
+  font-size: 60px;
+}
+.date{
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 25px;
+}
+p{
+  text-align: center;
+  font-size: 20px;
+}
+#u{
+  color: rgba(255, 255, 255, 0.541);
+  font-weight: 900;
+  font-size: 25px;
+}
